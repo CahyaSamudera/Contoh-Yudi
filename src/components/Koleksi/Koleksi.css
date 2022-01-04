@@ -1,0 +1,85 @@
+.full-content {
+  height: 100%;
+  padding-bottom: 25px;
+}
+.full-content .header-text {
+  color: #fff;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+.header-text h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 2rem 4rem;
+  color: #000;
+}
+.header-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.full-content .content-box {
+  display: flex;
+  flex-flow: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.content-box .content-box-info {
+  width: 350px;
+  box-shadow: 0 7px 14px rgba(85, 85, 85, 0.4);
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 0.8rem 1.2rem;
+  position: relative;
+  background-color: #fff;
+  transition: all 0.4s;
+}
+.content-box .content-box-info p {
+  text-align: center;
+  padding: 10px 0 0;
+}
+.content-box-info .img-website {
+  width: 100%;
+  box-shadow: 0 8px 12px rgba(85, 85, 85, 0.2);
+  transition: all 0.5s;
+}
+.content-box-info:hover .img-website {
+  filter: opacity(0.4);
+}
+.content-box-info .btn-click {
+  transition: all 0.4s;
+}
+.content-box-info .btn-click a:link,
+.content-box-info .btn-click a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1.4rem 1.7rem;
+  background-color: #b41727;
+  border-radius: 4px;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 34%;
+  opacity: 0;
+  transition: all 0.4s;
+}
+.content-box-info .btn-click:hover a {
+  letter-spacing: 2px;
+}
+.content-box-info:hover .btn-click a {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .header-text h2 {
+    font-size: 25px;
+  }
+  .header-text p {
+    font-size: 16px;
+  }
+}

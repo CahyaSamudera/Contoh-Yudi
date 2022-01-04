@@ -1,0 +1,29 @@
+.wrap-program {
+  background: rgba(0, 0, 0, 0.2) url('../../images/teacher-8.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  background-blend-mode: overlay;
+}
+.content-program {
+  padding: 250px 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.content-program h1 {
+  font-size: 48px;
+}
+.content-program p {
+  font-size: 20px;
+  padding: 25px 0;
+  font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  .content-program h1 {
+    font-size: 22px;
+  }
+}
